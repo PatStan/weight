@@ -1,25 +1,25 @@
 
 [<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
 
-# :package_description
+# Simple weight conversions in PHP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![Tests](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/patstan/weight.svg?style=flat-square)](https://packagist.org/packages/patstan/weight)
+[![Tests](https://github.com/patstan/weight/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/patstan/weight/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/patstan/weight.svg?style=flat-square)](https://packagist.org/packages/patstan/weight)
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require patstan/weight
 ```
 
 ## Usage
 
 ```php
-$skeleton = new VendorName\Skeleton();
-echo $skeleton->echoPhrase('Hello, VendorName!');
+$skeleton = new PatStan\Weight();
+echo $skeleton->echoPhrase('Hello, PatStan!');
 ```
 
 ## Testing
@@ -42,7 +42,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [Patrick Stanton](https://github.com/PatStan)
 - [All Contributors](../../contributors)
 
 ## License
